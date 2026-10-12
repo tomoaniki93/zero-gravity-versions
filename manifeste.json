@@ -1,0 +1,69 @@
+{
+  "nom": "Zero-Gravity",
+  "canaux": {
+    "stable": {
+      "version": "0.8",
+      "date": "2026-10-12",
+      "windows": {
+        "executable": "Zero-Gravity.exe",
+        "fichiers": [
+          {
+            "chemin": "Zero-Gravity.exe",
+            "taille": 103152128,
+            "sha256": "56596a63d02234efbfd5ec93370f25f80a4f8386066e49109c9428a2d4e7c0f8",
+            "url": "https://github.com/tomoaniki93/zero-gravity-versions/releases/download/v0.8/windows-Zero-Gravity.exe"
+          },
+          {
+            "chemin": "Zero-Gravity.pck",
+            "taille": 1458312,
+            "sha256": "d9ed0e9f107bd12b1a97b8713101388c5fe6ffd212d59fede158f27c46f97d56",
+            "url": "https://github.com/tomoaniki93/zero-gravity-versions/releases/download/v0.8/windows-Zero-Gravity.pck"
+          }
+        ]
+      }
+    }
+  },
+  "notes": [
+    {
+      "version": "0.8",
+      "date": "2026-10-12",
+      "canal": "stable",
+      "titre": "Missions et classement commun",
+      "resume": "Des missions par difficulté, un classement partagé par tous les joueurs grâce à Discord, et des niveaux désormais éditables dans Godot.",
+      "entrees": [
+        {
+          "type": "NOUVEAU",
+          "texte": "Missions de campagne en trois difficultés : Débutant (grappin illimité), Intermédiaire, Expert. Neuf missions."
+        },
+        {
+          "type": "NOUVEAU",
+          "texte": "Classement commun : reliez votre compte Discord dans Réglages › Jeu, vos temps rejoignent ceux de tous les joueurs."
+        },
+        {
+          "type": "NOUVEAU",
+          "texte": "Musique douce et apaisée dans les menus."
+        },
+        {
+          "type": "AMÉLIORÉ",
+          "texte": "Résolution adaptée à l'écran, et toutes les résolutions que l'écran accepte."
+        },
+        {
+          "type": "AMÉLIORÉ",
+          "texte": "Niveaux construits en scènes Godot, avec une bibliothèque d'éléments."
+        },
+        {
+          "type": "CORRIGÉ",
+          "texte": "Scintillement des cadres de hublots, de sas et de cloisons."
+        },
+        {
+          "type": "CORRIGÉ",
+          "texte": "Crépitement des sons d'ambiance, textes et interrupteurs des réglages."
+        },
+        {
+          "type": "À VENIR",
+          "texte": "Multijoueur en coopération et ceinture d'outils."
+        }
+      ]
+    }
+  ]
+}
