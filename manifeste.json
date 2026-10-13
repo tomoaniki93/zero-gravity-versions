@@ -2,8 +2,8 @@
   "nom": "Zero-Gravity",
   "canaux": {
     "stable": {
-      "version": "0.8",
-      "date": "2026-10-12",
+      "version": "0.9",
+      "date": "2026-10-13",
       "windows": {
         "executable": "Zero-Gravity.exe",
         "fichiers": [
@@ -11,13 +11,13 @@
             "chemin": "Zero-Gravity.exe",
             "taille": 103152128,
             "sha256": "56596a63d02234efbfd5ec93370f25f80a4f8386066e49109c9428a2d4e7c0f8",
-            "url": "https://github.com/tomoaniki93/zero-gravity-versions/releases/download/v0.8/windows-Zero-Gravity.exe"
+            "url": "https://github.com/tomoaniki93/zero-gravity-versions/releases/download/v0.9/windows-Zero-Gravity.exe"
           },
           {
             "chemin": "Zero-Gravity.pck",
-            "taille": 1458312,
-            "sha256": "d9ed0e9f107bd12b1a97b8713101388c5fe6ffd212d59fede158f27c46f97d56",
-            "url": "https://github.com/tomoaniki93/zero-gravity-versions/releases/download/v0.8/windows-Zero-Gravity.pck"
+            "taille": 1459112,
+            "sha256": "07d29f5704f01eacc9abdfac690fc7a7f2774716326af6fd8f4efaa26d6a272b",
+            "url": "https://github.com/tomoaniki93/zero-gravity-versions/releases/download/v0.9/windows-Zero-Gravity.pck"
           }
         ]
       }
@@ -25,39 +25,39 @@
   },
   "notes": [
     {
-      "version": "0.8",
-      "date": "2026-10-12",
+      "version": "0.9",
+      "date": "2026-10-13",
       "canal": "stable",
-      "titre": "Missions et classement commun",
-      "resume": "Des missions par difficulté, un classement partagé par tous les joueurs grâce à Discord, et des niveaux désormais éditables dans Godot.",
+      "titre": "Confort de jeu",
+      "resume": "Une version consacrée au confort : la vue est plus fluide et de nouveaux réglages aident ceux que le mouvement en apesanteur rend malades.",
       "entrees": [
         {
           "type": "NOUVEAU",
-          "texte": "Missions de campagne en trois difficultés : Débutant (grappin illimité), Intermédiaire, Expert. Neuf missions."
+          "texte": "Mode confort (Réglages › Jeu) : la vue ne s'incline plus dans les virages et ne tremble plus aux chocs, l'ATH reste fixe et les parasites de la visière disparaissent."
         },
         {
           "type": "NOUVEAU",
-          "texte": "Classement commun : reliez votre compte Discord dans Réglages › Jeu, vos temps rejoignent ceux de tous les joueurs."
-        },
-        {
-          "type": "NOUVEAU",
-          "texte": "Musique douce et apaisée dans les menus."
+          "texte": "Assombrissement des bords (Réglages › Jeu) : les bords de l'écran s'assombrissent quand vous allez vite ou tournez la tête. Désactivé par défaut, 50 à 70 % conseillés si vous êtes sensible à la cinétose."
         },
         {
           "type": "AMÉLIORÉ",
-          "texte": "Résolution adaptée à l'écran, et toutes les résolutions que l'écran accepte."
+          "texte": "Vue beaucoup plus fluide en mouvement, quelle que soit la fréquence de l'écran (60, 75, 144 Hz…)."
         },
         {
           "type": "AMÉLIORÉ",
-          "texte": "Niveaux construits en scènes Godot, avec une bibliothèque d'éléments."
+          "texte": "Champ de vision réglable jusqu'à 100°."
+        },
+        {
+          "type": "AMÉLIORÉ",
+          "texte": "Launcher : nouvel essai automatique quand le téléchargement est coupé, et message clair (connexion, antivirus, disque) en cas d'échec."
         },
         {
           "type": "CORRIGÉ",
-          "texte": "Scintillement des cadres de hublots, de sas et de cloisons."
+          "texte": "Petits à-coups de la caméra pendant les déplacements, qui pouvaient donner la nausée."
         },
         {
           "type": "CORRIGÉ",
-          "texte": "Crépitement des sons d'ambiance, textes et interrupteurs des réglages."
+          "texte": "Launcher : installation interrompue sur les connexions lentes."
         },
         {
           "type": "À VENIR",
